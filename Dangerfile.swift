@@ -3,5 +3,5 @@ let danger = Danger()
 
 danger.message("Hello from Danger")
 
-SwiftLint.lint(directory: "./", configFile: "./swiftlint.yml")
+SwiftLint.lint(inline: true, configFile: ".swiftlint.yml")
 
